@@ -1,0 +1,5 @@
+{
+  "test": "test text",
+  "button": "change language",
+  "test-component": {"button": "mobx test button"}
+}
