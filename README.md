@@ -2,6 +2,12 @@
 
 - 包含 i18n
 - 包含 mobx
+- 包含 fetch
+- 包含 .env
+  使用第三方插件，文档请参考使用手册
+  ```
+  react-native-config
+  ```
 
 ---
 
