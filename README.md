@@ -1,12 +1,26 @@
 ## React Native 基础框架
 
-- 包含 i18n
-- 包含 mobx
-- 包含 fetch
-- 包含 .env
-  使用第三方插件，文档请参考使用手册
+- 网络通信 内置 fetch
+
+- 国际化 i18n
+
+  ```
+  react-i18next
+  ```
+
+- 全局状态管理 mobx
+  ```
+  mobx mobx-react
+  ```
+- 环境变量配置.env 文件 react-native-config
+
   ```
   react-native-config
+  ```
+
+- 路由管理 react-router
+  ```
+  react-router-native
   ```
 
 ---
