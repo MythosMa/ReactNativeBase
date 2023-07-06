@@ -2,5 +2,6 @@
   "test": "测试文本",
   "button": "切换语言",
   "test-mobx": {"button": "mobx 测试按钮"},
-  "test-api": {"button": "api 测试按钮"}
+  "test-api": {"button": "api 测试按钮"},
+  "test-component": {"button": "mobx 组件测试"}
 }

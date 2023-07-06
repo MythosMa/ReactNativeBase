@@ -28,6 +28,11 @@ class TestStore {
       })
       .catch(error => {});
   }
+
+  @observable mobxComponent = null;
+  @action setMobxComponent(component) {
+    this.mobxComponent = this.mobxComponent ? null : component;
+  }
 }
 
 export default TestStore;

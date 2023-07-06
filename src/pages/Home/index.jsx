@@ -3,6 +3,7 @@ import {Text, Button} from 'react-native';
 import {observer} from 'mobx-react';
 import {useStores} from '../../store/index';
 import Test from '../../components/Test/index';
+import Test2 from '../../components/Test2';
 
 const HomePage = () => {
   const {t, i18n} = useTranslation();
@@ -31,6 +32,13 @@ const HomePage = () => {
         title={t('test-api.button')}
         onPress={() => {
           testStore.getTestData();
+        }}
+      />
+      {testStore.mobxComponent ? testStore.mobxComponent : <Text />}
+      <Button
+        title={t('test-component.button')}
+        onPress={() => {
+          testStore.setMobxComponent(<Test2 />);
         }}
       />
     </>
