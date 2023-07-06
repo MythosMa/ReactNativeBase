@@ -1,5 +1,6 @@
 {
   "test": "test text",
   "button": "change language",
-  "test-component": {"button": "mobx test button"}
+  "test-mobx": {"button": "mobx test button"},
+  "test-api": {"button": "api test button"}
 }

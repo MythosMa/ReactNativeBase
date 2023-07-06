@@ -19,9 +19,18 @@ const HomePage = () => {
       />
       <Test />
       <Button
-        title={t('test-component.button')}
+        title={t('test-mobx.button')}
         onPress={() => {
           testStore.testObjectCountAdd();
+        }}
+      />
+      <Text>
+        {testStore.testApiData ? JSON.stringify(testStore.testApiData) : ''}
+      </Text>
+      <Button
+        title={t('test-api.button')}
+        onPress={() => {
+          testStore.getTestData();
         }}
       />
     </>
