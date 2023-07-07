@@ -20,7 +20,7 @@ class TestStore {
 
   @observable testApiData = null;
   @action getTestData() {
-    request(API.getTestDataApi, {params: {a: 1}, body: {b: 2}})
+    request(API.getTestDataApi, {params: {a: 1}, body: {b: 44444}})
       .then(result => {
         runInAction(() => {
           this.testApiData = result;
