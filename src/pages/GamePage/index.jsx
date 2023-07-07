@@ -1,7 +1,11 @@
-import {StyleSheet, SafeAreaView} from 'react-native';
+import {StyleSheet, SafeAreaView, Text} from 'react-native';
 
 const GamePage = () => {
-  return <SafeAreaView className={styles['styles']}></SafeAreaView>;
+  return (
+    <SafeAreaView className={styles['styles']}>
+      <Text>game page</Text>
+    </SafeAreaView>
+  );
 };
 
 const styles = StyleSheet.create({

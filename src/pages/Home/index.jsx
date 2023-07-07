@@ -4,11 +4,12 @@ import {observer} from 'mobx-react';
 import {useStores} from '../../store/index';
 import Test from '../../components/Test/index';
 import Test2 from '../../components/Test2';
-import {Link} from 'react-router-native';
 
-const HomePage = () => {
+const HomePage = props => {
   const {t, i18n} = useTranslation();
   const {testStore} = useStores();
+
+  const {navigation} = props;
 
   return (
     <>
@@ -43,11 +44,11 @@ const HomePage = () => {
         }}
       />
       <Text />
-      <Link to="/game">
-        <Button
-          title={t('test-component.web-view-button')}
-          onPress={e => {}}></Button>
-      </Link>
+      <Button
+        title={t('test-component.web-view-button')}
+        onPress={() => {
+          navigation.navigate('game');
+        }}></Button>
     </>
   );
 };

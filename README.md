@@ -9,18 +9,20 @@
   ```
 
 - 全局状态管理 mobx
+
   ```
   mobx mobx-react
   ```
-- 环境变量配置.env 文件 react-native-config
+
+- 环境变量配置.env 文件 react-native-config 额外配置需要查看[**GITHUB**](https://github.com/luggit/react-native-config)，以支持 anroid 和 ios
 
   ```
   react-native-config
   ```
 
-- 路由管理 react-router
+- 路由管理 react-navigation/native 额外配置需要查看[**官网**](https://reactnavigation.org/docs/getting-started)，以支持 anroid 和 ios
   ```
-  react-router-native
+  @react-navigation/native react-native-screens react-native-safe-area-context @react-navigation/native-stack
   ```
 
 ---
