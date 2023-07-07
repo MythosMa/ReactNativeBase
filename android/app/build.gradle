@@ -74,9 +74,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.wzzdmobile"
+    namespace "com.reactnativebase"
     defaultConfig {
-        applicationId "com.wzzdmobile"
+        applicationId "com.reactnativebase"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
