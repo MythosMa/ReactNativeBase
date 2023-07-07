@@ -3,5 +3,8 @@
   "button": "change language",
   "test-mobx": {"button": "mobx test button"},
   "test-api": {"button": "api test button"},
-  "test-component": {"button": "mobx component test"}
+  "test-component": {
+    "button": "mobx component test",
+    "web-view-button": "webview test"
+  }
 }

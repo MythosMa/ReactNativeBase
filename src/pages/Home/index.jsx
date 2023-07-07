@@ -4,6 +4,7 @@ import {observer} from 'mobx-react';
 import {useStores} from '../../store/index';
 import Test from '../../components/Test/index';
 import Test2 from '../../components/Test2';
+import {Link} from 'react-router-native';
 
 const HomePage = () => {
   const {t, i18n} = useTranslation();
@@ -41,6 +42,12 @@ const HomePage = () => {
           testStore.setMobxComponent(<Test2 />);
         }}
       />
+      <Text />
+      <Link to="/game">
+        <Button
+          title={t('test-component.web-view-button')}
+          onPress={e => {}}></Button>
+      </Link>
     </>
   );
 };
