@@ -1,3 +1,3 @@
 export const API = {
-  getTestDataApi: {method: 'POST', url: '/test'},
+  getTestDataApi: {method: 'get', url: '/game/ignore/gameInfo/list'},
 };

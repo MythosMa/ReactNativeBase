@@ -41,6 +41,10 @@ export const request = (api, payload) => {
     .then(response => {
       const modifiedResponse = responseInterceptor(response);
       if (modifiedResponse) {
+        console.log('response========================');
+        console.log(response);
+        console.log(response.code);
+        console.log('response========================');
         return modifiedResponse;
       }
       return response;
