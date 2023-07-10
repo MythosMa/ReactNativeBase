@@ -5,13 +5,13 @@
 - 国际化 i18n
 
   ```
-  react-i18next
+  i18next react-i18next
   ```
 
-- 全局状态管理 mobx
+- 全局状态管理 mobx, 需要在 babel.config.js 中配置修饰器插件
 
   ```
-  mobx mobx-react
+  mobx mobx-react @babel/plugin-proposal-decorators @babel/plugin-proposal-class-properties
   ```
 
 - 环境变量配置.env 文件 react-native-config 额外配置需要查看[**GITHUB**](https://github.com/luggit/react-native-config)，以支持 anroid 和 ios
